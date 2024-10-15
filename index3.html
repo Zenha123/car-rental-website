@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Details</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <nav class="navbar">
+        
+        <div class="searchbox">
+            
+            <input type="text" placeholder="search">
+        </div>
+        <ul>
+            <li><a  class="home" href="#">home</a></li>
+            <li><a href="#">help desk</a></li>
+            <li><a href="#">raise dispute</a></li>
+            <li><a href="#">service</a></li>
+            
+        </ul>
+        <div class="icon">
+            <i class="fas fa-heart"></i>
+        <i class="fas fa-shopping-cart"></i>
+        <i class="fas fa-user"></i>
+        </div>
+    </nav>
+        <div class="container car-details-container">
+            <div class="car-gallery">
+                <img src="images/car1.png">
+                </div>
+            
+
+            <div class="car-info">
+                <h2>2022 Toyota Camry</h2>
+                <p class="price">3,783Rs/day</p>
+
+                <ul class="car-specs">
+                    <li><strong>Type:</strong> Sedan</li>
+                    <li><strong>Seats:</strong> 5</li>
+                    <li><strong>Transmission:</strong> Automatic</li>
+                    <li><strong>Fuel Type:</strong> Petrol</li>
+                    <li><strong>Mileage:</strong> Unlimited</li>
+                    <li><strong>GPS:</strong> Included</li>
+                </ul>
+
+                <div class="booking-form">
+                    <h3>Book Now</h3>
+                    <form action="#" method="POST">
+                        <label for="pickup">Pickup Date/Time</label>
+                        <input type="datetime-local" id="pickup" name="pickup" required>
+
+                        <label for="dropoff">Drop-off Date/Time</label>
+                        <input type="datetime-local" id="dropoff" name="dropoff" required>
+
+                        <button type="submit" onclick="window.location.href='index4.html'"class="btn">Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Car Rental. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
